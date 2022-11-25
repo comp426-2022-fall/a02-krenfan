@@ -16,3 +16,5 @@ if (args.h) {
 		'-j            Echo pretty JSON from open-meteo API and exit.');
 	process.exit(0);
 }
+
+const timezone = moment.tz.guest();
